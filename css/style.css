@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template: 1fr 4fr/ 1fr 4fr;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.container-sidebar{
+    background-color:#22d3ee;
+    grid-row: 1/end;
+    color: white;
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.title-logo{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-menu{
+    font-size: 1rem;
+}
+
+#text-settings{
+    margin-top: 2rem;
+}
+
+.container-header{
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr;
+}
+
+.container-searchbar{
+    grid-column: 1/2;
+}
