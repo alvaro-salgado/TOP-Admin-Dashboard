@@ -18,14 +18,29 @@
 .title-logo{
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+    display: grid;
+    grid-template: 1fr / 3rem 1fr;
+    align-items: center;
+}
+
+.icon-dashboard{
+    height: 2.5rem;
 }
 
 .text-menu{
     font-size: 1rem;
+    display: grid;
+    grid-template: 1fr/ 1.5rem 1fr;
+    align-items: center;
 }
 
 #text-settings{
     margin-top: 2rem;
+}
+
+.icon-sidebar{
+    height: 1rem;
+    fill: white;
 }
 
 .container-header{
@@ -39,9 +54,14 @@
 .container-searchbar{
     grid-column: 1/2;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template: 1fr / 2rem 1fr;
+    align-items: center;
 
+}
+
+.icon-search{
+    height: 1rem;
 }
 
 .searchbar{
@@ -55,6 +75,17 @@
     font-size: 0.8rem;
     font-weight: 700;
     justify-self: flex-end;
+    display: grid;
+    grid-template: 1fr / 2rem 3rem 1fr;
+    align-items: center;
+}
+
+.icon-notification{
+    height: 1rem;
+}
+
+.litte-profile-picture{
+    height: 2rem;
 }
 
 .container-profile{
